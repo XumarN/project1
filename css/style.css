@@ -2,6 +2,11 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+
+
+
+
 .main{
 	width: 100%;
 	min-height: 8267px;
@@ -53,6 +58,7 @@ body{
 .hello{
 	min-height: 700px;
 	width: 100%;
+	margin-top: 100px;
 }
 .part1{
 	width: 100%;
@@ -74,7 +80,7 @@ body{
 }
 .icons1{
 	width: 10%;
-	min-height: 60px;
+	min-height: 55px;
 	background: white;
 	border-radius: 10px;
 	float: left;
@@ -84,8 +90,47 @@ body{
 	justify-content: center;
 	font-size: 30px;
 	background: #390000;
+	margin-left: 0px;
+	margin-right: 60px;
 
 }
+.icons2{
+	width: 10%;
+	min-height: 55px;
+	background: white;
+	border-radius: 10px;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	margin-bottom: -300px;
+	margin-left: 0px;
+	margin-right: -135px;
+	z-index: 1;
+	
+}
+
+.icons3{
+	width: 10%;
+	min-height: 55px;
+	background: white;
+	border-radius: 10px;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	margin-bottom: 130px;
+	margin-right: 0px;
+	object-fit: cover;
+
+
+	
+
+	
+}
+
 .hello1{
 	width: 100%;
 	min-height: 30px;
@@ -117,17 +162,61 @@ body{
 .about{
 	width: 100%;
 	min-height: 91px;
-	background: red;
 }
 .button{
 	width: 20%;
 	min-height: 54px;
-	border-radius: 20px;
+	border-radius: 30px;
 	background: #F75023;
 	color: white;
 	border-style: none;
 	float: left;
+	margin-top: 10px;
 }
 .icon{
 	min-height: 17px;
+	width: 5%;
+	float: left;
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	
+}
+
+.icon1{
+	min-height: 17px;
+	width:  5%;
+	float: left;
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	
+}
+
+.icon2{
+	min-height: 17px;
+	width: 5%;
+	float: left;
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	
+}
+
+.icon3{
+	min-height: 17px;
+	width: 5%;
+	float: left;
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	
 }
