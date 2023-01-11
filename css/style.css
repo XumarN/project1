@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	min-height: 8267px;
+	background: pink;
+}
+.main1{
+	width: 100%;
+	min-height: 1174px;
+	background: #3F4555;
+	
+}
+.main2{
+	width: 100%;
+	min-height: 589px;
+	background: grey;
+}
+.main3{
+	width: 100%;
+	min-height: 1973px;
+	background: blue;
+}
+.main4{
+	width: 100%;
+	min-height: 1894px;
+	background: yellowgreen;
+}
+.main5{
+	width: 100%;
+	min-height: 1081px;
+	background: darkblue;
+}
+.main6{
+	width: 100%;
+	min-height: 1556px;
+	background: lightcyan;
+}
+.demo{
+	width: 123px;
+	min-height: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.down{
+	border: 2px solid orange;
+	border-radius: 20px;
+}
+.hello{
+	min-height: 700px;
+	width: 100%;
+}
+.part1{
+	width: 100%;
+	min-height: 370px;
+	float: left;
+	margin-top: 100px;
+
+}
+.part2{
+	width: 100%;
+	min-height: 370px;
+	float: left;
+	object-fit: cover;
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.icons1{
+	width: 10%;
+	min-height: 60px;
+	background: white;
+	border-radius: 10px;
+	float: left;
+	margin-bottom: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	background: #390000;
+
+}
+.hello1{
+	width: 100%;
+	min-height: 30px;
+	color: #F75023;
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+.james{
+	color: white;
+	width: 100%;
+	min-height: 72px;
+	font: 60px Jost sans-serif;
+}
+.creative{
+	width: 100%;
+	min-height: 23px;
+	font: 19px Open-sans, sans-serif;
+	color: white;
+}
+.iam{
+	width: 100%;
+	min-height: 80px;
+	color: white;
+	font: 16px Open-sans, sans-serif;
+	margin-bottom: 30px;
+	padding: 10px 0px;
+}
+.about{
+	width: 100%;
+	min-height: 91px;
+	background: red;
+}
+.button{
+	width: 20%;
+	min-height: 54px;
+	border-radius: 20px;
+	background: #F75023;
+	color: white;
+	border-style: none;
+	float: left;
+}
+.icon{
+	min-height: 17px;
+}
