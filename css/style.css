@@ -208,7 +208,7 @@ p {
 }
 .main3{
 	width: 100%;
-	min-height: 1973px;
+	min-height: 1500px;
 }
 .main4{
 	width: 100%;
@@ -798,6 +798,10 @@ p {
 li{
 	text-decoration: none;
 }
+.filter{
+	margin-top: -50px;
+
+}
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -811,48 +815,6 @@ li{
 
 
 
-
-
-.btn,
-input[type='submit'] {
-	display: in
-	-block;
-	padding: 10px 25px;
-	border: none;
-	color: #fff;
-	background: #ff214f;
-	font-weight: 600;
-	letter-spacing: 0.5px;
-	transition: 0.3s;
-	-moz-transition: 0.3s;
-	-webkit-transition: 0.3s;
-}
-
-.btn {
-	display: inline-block;
-	padding: 6px 12px;
-	margin-bottom: 0;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 1.42857143;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	-ms-touch-action: manipulation;
-	touch-action: manipulation;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	background-image: none;
-	border: 1px solid transparent;
-	border-radius: 4px;
-}
-
-li {
-	list-style: none;
-}
 
 .contactme {
 	width: 100%;
@@ -889,6 +851,12 @@ li {
 }
 #lala{
 	margin-top: -50px;
+	justify-items: space-between;
+}
+.nn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .the1 {
 	width: 100%;
@@ -902,5 +870,28 @@ li {
 	font-size: 15px;
 	font-style: sans-serif;
 }
+
+
+.sekil {
+	width: 100%;
+	min-height: 246px;
+}
+
+
+
+.n {
+	font: 15px RAleway, sans-serif;
+	color: #777777;
+}
+
+
+input.search, span {
+  margin-top: 20px;
+}
+
+input.search {
+  margin-left: 20px;
+}
+
 
 
