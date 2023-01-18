@@ -208,7 +208,7 @@ p {
 }
 .main3{
 	width: 100%;
-	min-height: 1500px;
+	min-height: 1800px;
 }
 .main4{
 	width: 100%;
@@ -891,6 +891,66 @@ input.search, span {
 
 input.search {
   margin-left: 20px;
+}
+
+
+.part22{
+	width: 100%;
+	min-height: 671px;
+}
+.part22_1{
+	float: left;
+	width: 100%;
+	min-height: 422px;
+	margin-top: 100px;
+	float: left;
+}
+.part22_2{
+	float: left;
+	width: 100%;
+	min-height: 801px;
+	background-image: url(../images/skill.jpg);
+	background-size: cover;
+	margin-bottom: 40px;
+
+}
+
+.bb{
+	color: #f75023;
+	font: 30px Jost, sans-serif;
+	width: 100%;
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.bb1{
+	color: white;
+	font: 45px Jost, sans-serif;
+	width: 100%;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	font-weight: bold;
+}
+.common{
+	width: 100%;
+	min-height: 70px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	color: #9693A4;
+	font: 22px "Open Sans", sans-serif;
+}
+.loader{
+	width: 100%;
+	min-height: 400px;
+	background: rebeccapurple;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	
 }
 
 
