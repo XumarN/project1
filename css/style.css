@@ -946,7 +946,6 @@ input.search {
 .loader{
 	width: 100%;
 	min-height: 400px;
-	background: rebeccapurple;
 	display: flex;
 	align-items: center;
 	justify-content: left;
@@ -955,3 +954,128 @@ input.search {
 
 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+.dodo_progress {
+    width: 50%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding-top: 30px;
+    overflow: hidden
+}
+
+.progress_inner {
+    width: 40%;
+    margin-bottom: 22px;
+
+}
+
+.progress_inner:last-child {
+    margin-bottom: 0;
+    margin-right: 100px;
+
+}
+
+.progress_inner>span {
+    margin: 0 0 9px;
+    display: block;
+    text-align: left;
+    position: relative
+}
+
+.progress_inner span.label {
+    opacity: 0;
+    transform: translateY(10px);
+    display: block;
+    color: #000;
+    font-size: 18px;
+    margin-right: 500px;
+    font-weight: 500;
+    color: white;
+    font-family: jost, sans-serif;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.progress_inner span.label.opened {
+    opacity: 1;
+    transform: translateY(0px)
+}
+
+.progress_inner span.number {
+    float: right;
+    position: absolute;
+    right: 100%;
+    bottom: -50px;
+    transition: all 2s cubic-bezier(.165, .84, .44, 1);
+    color: #f75023;
+    font-size: 16px;
+    font-family: jost, sans-serif;
+   
+}
+
+.progress_inner .background {
+    background: #e7e5f1;
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    height: 8px;
+    border-radius: 50px
+}
+
+.progress_inner .background .bar_in {
+    height: 8px;
+    width: 0;
+    overflow: hidden;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
+    top: 0
+}
+
+.progress_inner .background .bar {
+    width: 0;
+    height: 100%
+}
+
+.progress_inner .background .bar.open {
+    -webkit-animation: wow 2s cubic-bezier(.165, .84, .44, 1);
+    -moz-animation: wow 2s cubic-bezier(.165, .84, .44, 1);
+    animation: wow 2s cubic-bezier(.165, .84, .44, 1);
+    width: 100%
+}
+
+@-webkit-keyframes wow {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+@-moz-keyframes wow {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+@keyframes wow {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 100%
+    }
+}
