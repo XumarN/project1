@@ -213,7 +213,6 @@ p {
 .main4{
 	width: 100%;
 	min-height: 1894px;
-	background: yellowgreen;
 }
 .main5{
 	width: 100%;
@@ -223,7 +222,6 @@ p {
 .main6{
 	width: 100%;
 	min-height: 1556px;
-	background: lightcyan;
 }
 .demo{
 	width: 30%;
@@ -859,16 +857,19 @@ li{
 	justify-content: center;
 }
 .the1 {
-	width: 100%;
+	width: 50%;
 	height: 25.5px;
 	color: #777777;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 	margin-left: 100px;
 	margin-top: -30px;
 	font-size: 15px;
 	font-style: sans-serif;
+	margin-left: 345px;
+	text-align: center;
 }
 
 
@@ -949,6 +950,7 @@ input.search {
 	display: flex;
 	align-items: center;
 	justify-content: left;
+	margin-right: 50px;
 	
 }
 
@@ -958,7 +960,7 @@ input.search {
 
 
 .dodo_progress {
-    width: 50%;
+    width: 10%;
     height: auto;
     clear: both;
     float: left;
@@ -1079,3 +1081,338 @@ input.search {
         width: 100%
     }
 }
+
+
+
+.card{
+	width: 100%;
+	min-height: 372px;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	background: #4B4F5C;
+	border-radius: 12px;
+
+
+}
+
+.card1{
+	width: 100%;
+	min-height: 372px;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	background: #4B4F5C;
+	border-radius: 12px;
+	position: relative;
+
+
+}
+.card1:after{
+	content: "";
+	position: absolute;
+	top: -200px;
+	left: 350px;
+	width: 60%;
+	min-height: 300px;
+	background-image: url(../images/service-top-img.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.card1:before{
+	content: "";
+	position: absolute;
+	top: -400px;
+	right: 950px;
+	width: 70%;
+	min-height: 400px;
+	background-image: url(../images/service_top_left.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.iicon{
+	width: 40%;
+	min-height: 372px;
+	float: left;
+}
+.start{
+	width: 60%;
+	min-height: 73px;
+	margin-top: 50px;
+	float: left;
+}
+.start1{
+	width: 60%;
+	min-height: 240px;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	color: #AFABBF;
+	font: 20px "Open Sans", sans-serif;
+	margin-top: -28px;
+	margin-left: -10px;
+	text-align: center;
+
+}
+.image{
+	width: 43%;
+	min-height: 95px;
+	background-image: url(../images/service-icon-1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 50px;
+	margin-top: 70px;
+
+}
+
+.image2{
+	width: 43%;
+	min-height: 95px;
+	background-image: url(../images/service-icon-2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.image3{
+	width: 43%;
+	min-height: 95px;
+	background-image: url(../images/service-icon-3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.image4{
+	width: 43%;
+	min-height: 95px;
+	background-image: url(../images/service-icon-4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: montserrat;
+  font-size: 40px;
+}
+
+a {
+  font-family: Montserrat;
+  position: relative;
+  text-decoration: none;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 0px;
+  left: 0%;
+  background: black;
+  transition: width .3s ease;
+}
+
+a:hover:after{
+  width: 100%;
+  left: 0%;
+  background: black;
+}
+
+.cursor {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid #f75023;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+  z-index: 99999999999999999999999999;
+}
+
+.cursor2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #f75023;
+ /* opacity: .3;*/
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+   z-index: 99999999999999999999999999;
+}
+
+.hover {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.cursorinnerhover {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+}
+/*///////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+.input1{
+	width: 100%;
+	min-height: 310px;
+	float: left;
+	
+}
+.input2{
+	width: 100%;
+	min-height: 310px;
+	float: left;
+	background: gray;
+}
+.address{
+	width: 100%;
+	min-height: 88px;
+	margin-bottom: 5px;
+
+}
+.email{
+	width: 100%;
+	min-height: 88px;
+	margin-bottom: 5px;
+
+}
+.phone{
+	width: 100%;
+	min-height: 88px;
+	margin-bottom: 5px;
+
+}
+.address1{
+	min-height: 88px;
+	background: #FEDFD7;
+	border-radius: 100%;
+	width: 17%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.address2{
+	min-height: 39px;
+	width: 79%;
+	margin-left: 10px;
+	float: left;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+	font: 30px Jost, sans-serif;
+
+}
+.address3{
+	width: 79%;
+	min-height: 22px;
+	margin-left: 10px;
+	color: #b9b5c9;
+	float: left;
+	font: 16px "Open Sans", sans-serif;
+}
+
+
+
+.email1{
+	min-height: 88px;
+	background: #DDF5E6;
+	border-radius: 100%;
+	width: 17%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #1CBE59;
+}
+.email2{
+	min-height: 39px;
+	width: 79%;
+	float: left;
+	margin-left: 20px;
+	color: white;
+	font-weight: bold;
+	font: 30px Jost, sans-serif;
+
+}
+.email3{
+	width: 79%;
+	min-height: 22px;
+	margin-left: 20px;
+	color: #b9b5c9;
+	float: left;
+	font: 16px "Open Sans", sans-serif;
+}
+
+
+.phone1{
+	min-height: 88px;
+	background: #D8D4E7;
+	border-radius: 100%;
+	width: 17%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #8067F0;
+
+}
+.phone2{
+	min-height: 39px;
+	width: 79%;
+	float: left;
+	margin-left: 20px;
+	color: white;
+	font-weight: bold;
+	font: 30px Jost, sans-serif;
+
+}
+.phone3{
+	width: 79%;
+	min-height: 22px;
+	color: #b9b5c9;
+	float: left;
+	margin-left: 20px;
+	font: 16px "Open Sans", sans-serif;
+}
+
