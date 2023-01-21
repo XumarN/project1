@@ -4,7 +4,7 @@ body{
 	background: #2B2D33;
 }
 
-
+ 
 .button {
   position: relative;
  
@@ -1301,7 +1301,6 @@ a:hover:after{
 	width: 100%;
 	min-height: 310px;
 	float: left;
-	background: gray;
 }
 .address{
 	width: 100%;
@@ -1330,6 +1329,9 @@ a:hover:after{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 }
 .address2{
@@ -1415,4 +1417,73 @@ a:hover:after{
 	margin-left: 20px;
 	font: 16px "Open Sans", sans-serif;
 }
+.your1{
+	width: 100%;
+	min-height: 58px;
+	margin-top: 10px;
 
+
+
+}
+.your2{
+	width: 100%;
+	min-height: 58px;
+	margin-top: 10px;
+}
+.your11{
+
+	width: 48%;
+	min-height: 58px;
+	float: left;
+	border-style: solid;
+	border-color: rgba(214,219,229,.36);;
+	border-radius: 10px;
+	border-width: 1px;
+}
+.your12{
+	width: 48%;
+	min-height: 58px;
+	float: left;
+	margin-left: 20px;
+	border-style: solid;
+	border-color: rgba(214,219,229,.36);;
+	border-radius: 10px;
+	border-width: 1px;
+}
+
+.your21{
+	width: 48%;
+	min-height: 58px;
+	
+	float: left;
+	border-style: solid;
+	border-color: rgba(214,219,229,.36);;
+	border-radius: 10px;
+	border-width: 1px;
+}
+.your22{
+	width: 48%;
+	min-height: 58px;
+	float: left;
+	margin-left: 20px;
+	border-style: solid;
+	border-color: rgba(214,219,229,.36);;
+	border-radius: 10px;
+	border-width: 1px;
+}
+.write{
+	width: 100%;
+	min-height: 200px;
+	border-style: solid;
+	border-color: rgba(214,219,229,.36);;
+	border-radius: 10px;
+	border-width: 1px;
+	margin-top: 10px;
+	
+
+}
+.xs{
+	color: black;
+	width: 50px;
+	min-height: 50px;
+}
