@@ -1108,7 +1108,7 @@ input.search {
 
 
 }
-.card1:after{
+/*.card1:after{
 	content: "";
 	position: absolute;
 	top: -200px;
@@ -1131,7 +1131,7 @@ input.search {
 	background-size: cover;
 	background-repeat: no-repeat;
 
-}
+}*/
 .iicon{
 	width: 40%;
 	min-height: 372px;
@@ -1310,7 +1310,7 @@ a:hover:after{
 	position: relative;
 
 }
-.address::after{
+/*.address::after{
 	position: absolute;
 	content: " ";
 	bottom: 150px;
@@ -1320,7 +1320,7 @@ a:hover:after{
 	background-image: url(../images/contact_left.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-}
+}*/
 .email{
 	width: 100%;
 	min-height: 88px;
@@ -1331,19 +1331,22 @@ a:hover:after{
 	width: 100%;
 	min-height: 88px;
 	margin-bottom: 5px;
-	position: relative;
+	
 
 }
-.phone::before{
+/*.phone::after{
 	position: absolute;
-	content: "";
-	color: darkred;
-	min-height:150px;
-	width: 25%;
-	top: 150px;
-	left: 150px;
+	content: " ";
+	background-image: url(../images/22.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height:250px;
+	width: 35%;
+	top: 5px;
+	left: 900px;
+	top: 420px;
 }
-.address1{
+*/.address1{
 	min-height: 88px;
 	background: #FEDFD7;
 	border-radius: 100%;
@@ -1515,4 +1518,70 @@ a:hover:after{
 	color: black;
 	width: 50px;
 	min-height: 50px;
+}
+.map{
+	width: 100%;
+	min-height: 375px;
+	margin-top: 250px;
+}
+
+.responsive-map{
+	overflow: hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	cursor: pointer;
+	}
+.responsive-map iframe{
+	left:0;
+	top:0;
+	
+	width:100%;
+	position:absolute;
+	}
+.main7{
+
+	width: 100%;
+	min-height: 150px;
+	background: #3f4453;
+}
+.main71{
+	width: 26%;
+	min-height: 70px;
+	color: #b9b5c9;
+	margin-top: 50px;
+	float: left;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.main71:hover{
+	color: #f75023;
+}
+.main72{
+	width: 15%;
+	min-height: 70px;
+	margin-left: 50px;
+	float: left;
+	margin-top: 50px;
+	font-size: 16px;
+	margin-left: 431px;
+	color: #b9b5c9;
+}
+.main72:hover{
+	color: #f75023;
+}
+
+.main73{
+	width: 15%;
+	min-height: 70px;
+	margin-left: 50px;
+	float: right;
+	margin-top: 50px;
+	font-size: 16px;
+	color: #b9b5c9;
+	margin-right: 10px;
+	
+}
+.main73:hover{
+	color: #f75023;
 }
