@@ -1295,6 +1295,7 @@ a:hover:after{
 	width: 100%;
 	min-height: 310px;
 	float: left;
+	margin-top: 25px;
 	
 }
 .input2{
@@ -1306,7 +1307,19 @@ a:hover:after{
 	width: 100%;
 	min-height: 88px;
 	margin-bottom: 5px;
+	position: relative;
 
+}
+.address::after{
+	position: absolute;
+	content: " ";
+	bottom: 150px;
+	left: -175px;
+	width: 25%;
+	min-height: 150px;
+	background-image: url(../images/contact_left.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .email{
 	width: 100%;
@@ -1318,7 +1331,17 @@ a:hover:after{
 	width: 100%;
 	min-height: 88px;
 	margin-bottom: 5px;
+	position: relative;
 
+}
+.phone::before{
+	position: absolute;
+	content: "";
+	color: darkred;
+	min-height:150px;
+	width: 25%;
+	top: 150px;
+	left: 150px;
 }
 .address1{
 	min-height: 88px;
@@ -1343,6 +1366,7 @@ a:hover:after{
 	color: white;
 	font-weight: bold;
 	font: 30px Jost, sans-serif;
+	margin-left: 15px;
 
 }
 .address3{
@@ -1352,6 +1376,7 @@ a:hover:after{
 	color: #b9b5c9;
 	float: left;
 	font: 16px "Open Sans", sans-serif;
+	margin-left: 15px;
 }
 
 
@@ -1375,6 +1400,7 @@ a:hover:after{
 	color: white;
 	font-weight: bold;
 	font: 30px Jost, sans-serif;
+	margin-left: 15px;
 
 }
 .email3{
@@ -1384,6 +1410,7 @@ a:hover:after{
 	color: #b9b5c9;
 	float: left;
 	font: 16px "Open Sans", sans-serif;
+	margin-left: 15px;
 }
 
 
@@ -1407,6 +1434,7 @@ a:hover:after{
 	color: white;
 	font-weight: bold;
 	font: 30px Jost, sans-serif;
+	margin-left: 15px;
 
 }
 .phone3{
@@ -1416,6 +1444,7 @@ a:hover:after{
 	float: left;
 	margin-left: 20px;
 	font: 16px "Open Sans", sans-serif;
+	margin-left: 15px;
 }
 .your1{
 	width: 100%;
@@ -1473,7 +1502,7 @@ a:hover:after{
 }
 .write{
 	width: 100%;
-	min-height: 200px;
+	min-height: 183px;
 	border-style: solid;
 	border-color: rgba(214,219,229,.36);;
 	border-radius: 10px;
