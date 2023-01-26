@@ -212,11 +212,11 @@ p {
 }
 .main4{
 	width: 100%;
-	min-height: 1894px;
+	min-height: 2400px;
 }
 .main5{
 	width: 100%;
-	min-height: 1081px;
+	min-height: 861px;
 	background: darkblue;
 }
 .main6{
@@ -1584,4 +1584,110 @@ a:hover:after{
 }
 .main73:hover{
 	color: #f75023;
+}
+
+.cedvel{
+	width: 100%;
+	min-height: 360px;
+	
+}
+.cedvel1{
+	width: 100%;
+	min-height: 180px;
+	
+
+}
+.cedvel2{
+	width: 100%;
+	min-height: 180px;
+	
+}
+
+.cedvel11{
+	width: 25%;
+	min-height: 180px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555555;
+	border-top-left-radius: 10px;
+
+
+}
+.cedvel12{
+	width: 25%;
+	min-height: 180px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555555;
+	
+
+}
+.cedvel13{
+	width: 25%;
+	min-height: 180px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555555;
+	
+
+}
+.cedvel14{
+	width: 25%;
+	
+	min-height: 180px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555555;
+	border-top-right-radius:10px ;
+	
+
+}
+
+
+.cedvel21{
+	width: 25%;
+	min-height: 180px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555555;
+	border-bottom-left-radius: 10px;
+	
+}
+.cedvel22{
+	width: 25%;
+	
+	min-height: 180px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555555;
+
+
+}
+.cedvel23{
+	width: 25%;
+	min-height: 180px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555555;
+
+
+}
+.cedvel24{
+	width: 25%;
+	
+	min-height: 180px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555555;
+	border-bottom-right-radius: 10px;
+
+
 }
