@@ -212,7 +212,7 @@ p {
 }
 .main4{
 	width: 100%;
-	min-height: 2400px;
+	min-height: 1900px;
 }
 .main5{
 	width: 100%;
@@ -1689,5 +1689,88 @@ a:hover:after{
 	border-color: #555555;
 	border-bottom-right-radius: 10px;
 
+
+}
+.blog{
+	width: 100%;
+	min-height: 125px;
+}
+.blog1{
+	width: 100%;
+	min-height: 30px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font: 22px Jost, sans-serif;
+	font-weight: bold;
+	color: #f75023;
+	padding-bottom: 5px;
+}
+.blog2{
+	width: 50%;
+	min-height: 95px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font: 38px Jost, sans-serif;
+	
+	color: white;
+	text-align: center;
+	margin-left: 300px;
+	margin-bottom: 30px;
+
+
+}
+.dec{
+	width: 100%;
+	min-height: 445px;
+	
+}
+.dec1{
+	width: 100%;
+	min-height: 353px;
+	float: left;
+}
+.dec2{
+	width: 100%;
+	min-height: 353px;
+	float: left;
+	
+}
+.dec3{
+	width: 100%;
+	min-height: 353px;
+	float: left;
+}
+.decsekil{
+	width: 100%;
+	min-height: 240px;
+	float: left;
+}
+.decsoz{
+	width: 100%;
+	min-height: 30px;
+	color:#f75023 ;
+	font: 16px Jost, sans-serif;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.decsoz1{
+	width: 100%;
+	min-height: 58px;
+	margin-top: 5px;
+	font: 20px Jost, sans-serif;
+	color: white;
+}
+.dec23{
+	width: 20%;
+	min-height: 70px;
+	background: green;
+	border-radius: 10px;
+	float: left;
+	margin-bottom: 0px;
+	margin-left: -281px;
+	margin-top: -225px;
 
 }
