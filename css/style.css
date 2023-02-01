@@ -217,7 +217,6 @@ p {
 .main5{
 	width: 100%;
 	min-height: 861px;
-	background: darkblue;
 }
 .main6{
 	width: 100%;
@@ -1694,6 +1693,7 @@ a:hover:after{
 .blog{
 	width: 100%;
 	min-height: 125px;
+	margin-top: 30px;
 }
 .blog1{
 	width: 100%;
@@ -1731,12 +1731,13 @@ a:hover:after{
 	width: 100%;
 	min-height: 353px;
 	float: left;
+
 }
 .dec2{
 	width: 100%;
 	min-height: 353px;
 	float: left;
-	
+
 }
 .dec3{
 	width: 100%;
@@ -1747,6 +1748,7 @@ a:hover:after{
 	width: 100%;
 	min-height: 240px;
 	float: left;
+	margin-bottom: 15px;
 }
 .decsoz{
 	width: 100%;
@@ -1766,11 +1768,41 @@ a:hover:after{
 .dec23{
 	width: 20%;
 	min-height: 70px;
-	background: green;
+	background: #1CBE59;
 	border-radius: 10px;
 	float: left;
 	margin-bottom: 0px;
-	margin-left: -281px;
-	margin-top: -225px;
+	margin-left: -80px;
+	margin-top: 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 15px;
+	text-align: center;
+	font-weight: bold;
 
+}
+.subscribe{
+	width: 100%;
+	min-height: 310px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	background-image: url(../images/subscribe.jpg);
+	border-radius: 10px;
+	
+}
+
+
+.subscribe::after{
+	position: absolute;
+	content: " ";
+	width: 100%;
+	min-height: 310px;
+	top: 0px;
+	left: 0px;
+	background: #8A73F1;
+	opacity: 0.9;
+	border-radius: 10px;
 }
