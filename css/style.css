@@ -95,6 +95,15 @@ p {
   justify-content: center;
   border-radius: 10px;
 }
+.mx{
+  width: 50px;
+  min-height: 50px;
+  background: #001631;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
 
 .xs{
   width: 50px;
@@ -108,27 +117,6 @@ p {
   border-radius: 10px;
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .about_image .numbers .wrapper {
     background: var(--wrapper);
@@ -270,11 +258,10 @@ p {
 	justify-content: center;
 	position: relative;
 
-}/*
+}
 .icons1{
 	width: 10%;
 	min-height: 55px;
-	background: white;
 	border-radius: 10px;
 	float: left;
 	margin-bottom: 300px;
@@ -282,15 +269,15 @@ p {
 	align-items: center;
 	justify-content: center;
 	font-size: 30px;
-	background: #390000;
+	background: transparent;
 	margin-left: 0px;
 	margin-right: 60px;
 
 }
 .icons2{
 	width: 10%;
-	min-height: 55px;
-	background: white;
+	min-height: 20px;
+	background: transparent;
 	border-radius: 10px;
 	float: left;
 	display: flex;
@@ -298,7 +285,7 @@ p {
 	justify-content: center;
 	font-size: 30px;
 	margin-bottom: -300px;
-	margin-left: 0px;
+	margin-left: 110px;
 	margin-right: -135px;
 	z-index: 1;
 	
@@ -307,7 +294,7 @@ p {
 .icons3{
 	width: 10%;
 	min-height: 55px;
-	background: white;
+	background: transparent;
 	border-radius: 10px;
 	float: right;
 	display: flex;
@@ -323,7 +310,7 @@ p {
 
 	
 }
-*/
+
 .hello1{
 	width: 100%;
 	min-height: 30px;
@@ -440,6 +427,7 @@ p {
 }
 .xx{
 	margin-left: 620px;
+	bac
 }
 /*.part1:before{
 	position: absolute;
@@ -801,16 +789,6 @@ li{
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-
-
-
-
-
-
-
-
 
 
 .contactme {
@@ -1245,7 +1223,7 @@ a:after {
 a:hover:after{
   width: 100%;
   left: 0%;
-  background: black;
+  
 }
 
 .cursor {
@@ -1555,6 +1533,7 @@ a:hover:after{
 }
 .main71:hover{
 	color: #f75023;
+	transition-duration: 1s;
 }
 .main72{
 	width: 15%;
@@ -1568,6 +1547,8 @@ a:hover:after{
 }
 .main72:hover{
 	color: #f75023;
+		transition-duration: 1s;
+
 }
 
 .main73{
@@ -1583,6 +1564,8 @@ a:hover:after{
 }
 .main73:hover{
 	color: #f75023;
+		transition-duration: 1s;
+
 }
 
 .cedvel{
@@ -1857,16 +1840,24 @@ a:hover:after{
 .dizme_tm_subscribe .title {
     color: #fff;
     font-size: 48px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
 }
 
 .dizme_tm_subscribe .text {
-    color: #fff
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 .dizme_tm_subscribe .right {
     width: 50%;
-    padding-left: 10px
+    padding-left: 10px;
 }
 
 .dizme_tm_subscribe .field {
@@ -1880,7 +1871,7 @@ a:hover:after{
     border-radius: 12px;
     color: #6f6b80;
     background-color: #fff;
-    padding-left: 30px
+
 }
 
 .dizme_tm_subscribe .field input[type=text]:focus {
@@ -1900,7 +1891,7 @@ a:hover:after{
     text-transform: capitalize;
     font-weight: 500;
     background-color: #f75023;
-    padding: 0 35px
+   
 }
 
 .dizme_tm_contact {
@@ -1911,4 +1902,16 @@ a:hover:after{
     padding-top: 190px;
     margin-bottom: 200px;
     position: relative
+}
+#email{
+	border-style: none;
+	font-family: jost, sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+   	
+}
+
+#now{
+	border-style: none;
 }
