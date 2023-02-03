@@ -1783,26 +1783,132 @@ a:hover:after{
 	font-weight: bold;
 
 }
-.subscribe{
-	width: 100%;
-	min-height: 310px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-	background-image: url(../images/subscribe.jpg);
-	border-radius: 10px;
-	
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.dizme_tm_subscribe {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left
 }
 
+.dizme_tm_subscribe .inner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative
+}
 
-.subscribe::after{
-	position: absolute;
-	content: " ";
-	width: 100%;
-	min-height: 310px;
-	top: 0px;
-	left: 0px;
-	background: #8A73F1;
-	opacity: 0.9;
-	border-radius: 10px;
+.dizme_tm_subscribe .background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 12px
+}
+
+.dizme_tm_subscribe .background .dots {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px
+}
+
+.dizme_tm_subscribe .background .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(128, 103, 240, .92);
+    z-index: 1;
+    border-radius: 12px
+}
+
+.dizme_tm_subscribe .content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 83px 90px 86px
+}
+
+.dizme_tm_subscribe .left {
+    width: 50%;
+    padding-right: 40px
+}
+
+.dizme_tm_subscribe .subtitle {
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+    font-family: jost, sans-serif;
+    margin-bottom: 5px
+}
+
+.dizme_tm_subscribe .title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 10px
+}
+
+.dizme_tm_subscribe .text {
+    color: #fff
+}
+
+.dizme_tm_subscribe .right {
+    width: 50%;
+    padding-left: 10px
+}
+
+.dizme_tm_subscribe .field {
+    width: 100%;
+    position: relative
+}
+
+.dizme_tm_subscribe .field input[type=text] {
+    width: 100%;
+    height: 72px;
+    border-radius: 12px;
+    color: #6f6b80;
+    background-color: #fff;
+    padding-left: 30px
+}
+
+.dizme_tm_subscribe .field input[type=text]:focus {
+    outline: none
+}
+
+.dizme_tm_subscribe .field input[type=submit] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 72px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: #fff;
+    font-family: jost, sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: #f75023;
+    padding: 0 35px
+}
+
+.dizme_tm_contact {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding-top: 190px;
+    margin-bottom: 200px;
+    position: relative
 }
