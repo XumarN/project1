@@ -427,38 +427,9 @@ p {
 }
 .xx{
 	margin-left: 620px;
-	bac
+	
 }
-/*.part1:before{
-	position: absolute;
-	content: "";
-	width:20%;
-	min-height: 150px;
-	top: 200px;
-	right: 570px;
-	background-image: url(../images/blog-top.png);
-	background-size: cover;
-}
-.part2:before{
-	position: absolute;
-	content: "";
-	width: 20%;
-	min-height: 200px;
-	bottom: 300px;
-	background: white;
-	left: 300px;
-	background-image: url(../images/service-top-img.png);
-	background-size: cover;
-}
-.part1:after{
-	position: absolute;
-	content: "";
-	width: 20%;
-	bottom: 300px;
-	right: 550px;
-	min-height: 200px;
-	background-image: url(../images/about_bottom_img.png);
-}*/
+
 .icon{
 	margin-left: 50px;
 }
@@ -473,7 +444,7 @@ p {
 	min-height: 260px;
 	float: left;
 	margin-top: 20px;
-	x
+	
 
 }
 .circle2{
@@ -495,17 +466,18 @@ p {
 .icon11{
 	min-height: 90px;
 	width: 25%;
-	margin-left: 130px;
+	margin-left: 35%;
 	background-image: url(../images/3.png);
 	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 0%;
 }
 .icon12{
 	min-height: 90px;
 	width: 25%;
-	margin-left: 130px;
+	margin-left: 35%;
 	background-image: url(../images/2.png);
 	background-size: cover;
 	display: flex;
@@ -517,7 +489,7 @@ p {
 .icon13{
 	min-height: 90px;
 	width: 25%;
-	margin-left: 130px;
+	margin-left: 35%;
 	background-image: url(../images/3.png);
 	background-size: cover;
 	display: flex;
@@ -1396,7 +1368,7 @@ a:hover:after{
 
 .phone1{
 	min-height: 88px;
-	background: #D8D4E7;
+	background: #ECE8FD`;
 	border-radius: 100%;
 	width: 17%;
 	float: left;
@@ -1917,4 +1889,80 @@ a:hover:after{
 }
 .me{
 	list-style-type: none;
+}
+.yy{
+	width: 50%;
+	min-height: 40px;
+}
+
+
+
+/*///////////////////////////Responsivity////////////////////////////////////////////*/
+
+@media only screen and (max-width: 1039.99px) {
+	.part1{
+		margin-top: 500px;
+		
+		text-align: center;
+
+	}
+	.part2{
+		margin-top: -800px;
+		padding-left: 200px;
+
+	}
+	.icons1{
+
+		display: none;
+	}
+	.icons2{
+		display: none;
+	}
+	.icons3{
+		display: none;
+	}
+	.button1{
+		margin-left: 250px;
+	}
+	.yy{
+		width: 30%;
+
+	}
+	.icon11{
+		width: 22%;
+		min-height: 158px;
+
+	}
+	.icon12{
+		width: 22%;
+		min-height: 158px;
+	}
+	.icon13{
+		width: 22%;
+		min-height: 158px;
+	}
+
+
+}
+
+@media only screen and (min-width: 1040px) {
+	
+}
+
+
+@media only screen and (min-width: 732px) {
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
 }
