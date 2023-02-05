@@ -1915,3 +1915,6 @@ a:hover:after{
 #now{
 	border-style: none;
 }
+.me{
+	list-style-type: none;
+}
