@@ -4,7 +4,7 @@ body{
 	background: #2B2D33;
 }
 
- 
+  
 .button {
   position: relative;
  
@@ -592,19 +592,7 @@ p {
 
 }
 
-/*
-.soz{
-	width: 50%;
-	background: blue;
-	min-height: 110px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: white;
-	font: 18px Jost, sans-serif;
 
-}
-*/
 .success{
 	width: 35%;
 	min-height: 110px;
@@ -1044,6 +1032,11 @@ input.search {
 
 
 }
+.card:hover{
+	transform: rotateY(2deg);
+	transform: rotateZ(2deg);
+	transition-duration: 1s;
+}
 
 .card1{
 	width: 100%;
@@ -1057,30 +1050,11 @@ input.search {
 
 
 }
-/*.card1:after{
-	content: "";
-	position: absolute;
-	top: -200px;
-	left: 350px;
-	width: 60%;
-	min-height: 300px;
-	background-image: url(../images/service-top-img.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+
+.card1:hover{
+	transform: rotateZ(2deg);
+	transition-duration: 1s;
 }
-
-.card1:before{
-	content: "";
-	position: absolute;
-	top: -400px;
-	right: 950px;
-	width: 70%;
-	min-height: 400px;
-	background-image: url(../images/service_top_left.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-
-}*/
 .iicon{
 	width: 40%;
 	min-height: 372px;
@@ -1368,7 +1342,7 @@ a:hover:after{
 
 .phone1{
 	min-height: 88px;
-	background: #ECE8FD`;
+	background: #ECE8FD;
 	border-radius: 100%;
 	width: 17%;
 	float: left;
@@ -1562,7 +1536,7 @@ a:hover:after{
 	min-height: 180px;
 	float: left;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: #555555;
 	border-top-left-radius: 10px;
 
@@ -1573,7 +1547,7 @@ a:hover:after{
 	min-height: 180px;
 	float: left;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: #555555;
 	
 
@@ -1583,7 +1557,7 @@ a:hover:after{
 	min-height: 180px;
 	float: left;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: #555555;
 	
 
@@ -1594,7 +1568,7 @@ a:hover:after{
 	min-height: 180px;
 	float: left;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: #555555;
 	border-top-right-radius:10px ;
 	
@@ -1607,7 +1581,7 @@ a:hover:after{
 	min-height: 180px;
 	float: left;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: #555555;
 	border-bottom-left-radius: 10px;
 	
@@ -1618,7 +1592,7 @@ a:hover:after{
 	min-height: 180px;
 	float: left;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: #555555;
 
 
@@ -1628,7 +1602,7 @@ a:hover:after{
 	min-height: 180px;
 	float: left;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: #555555;
 
 
@@ -1639,7 +1613,7 @@ a:hover:after{
 	min-height: 180px;
 	float: left;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: #555555;
 	border-bottom-right-radius: 10px;
 
@@ -1716,9 +1690,15 @@ a:hover:after{
 .decsoz1{
 	width: 100%;
 	min-height: 58px;
-	margin-top: 5px;
+	margin-top:15px;
 	font: 20px Jost, sans-serif;
 	color: white;
+	font-weight: bold;
+}
+.decsoz1:hover{
+	color: #F75023;
+	transition-duration: 0.5s;
+
 }
 .dec23{
 	width: 20%;
@@ -1945,6 +1925,132 @@ a:hover:after{
 
 }
 
+@media only screen and (max-width: 768.99px) {
+	.image1{
+		display: none;
+	}
+	.image2{
+		display: none;
+	}
+
+	.image3{
+		display: none;
+	}
+	.image4{
+		display: none;
+	}
+	.image{
+		display:none;
+	}
+	.start{
+		margin-right: 100px;
+	}
+	.iicon{
+		display: none;
+	}
+	.start1{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.start{
+		width: 100%;
+		margin-left: 15px;
+	}
+	.the1{
+		width: 100%;
+		text-align: center;
+		margin-left: 100px;
+	}
+	.common{
+		width: 100%;
+		text-align: center;
+		margin-left: 0px;
+	}
+	.progress_inner{
+		width: 90%;
+	}
+	.part22_2{
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin-left: 150px;
+		
+	}
+	.years{
+		width: 50%;
+		min-height:300px ;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin-left: 150px;
+		float: left;
+		margin-bottom: 100px;
+	}
+	.success{
+		width: 175%;
+		min-height:150px ;
+		margin-top: 200px;
+
+
+
+
+	}
+	.total{
+		width: 175%;
+		min-height:150px ;
+		float: left;
+		margin-left: -80px;
+		margin-top: 20px;
+
+		
+	}
+	.number{
+		width: 100%;
+	}
+.number1{
+		width: 100%;
+	}
+	.soz{
+		width: 100%;
+		min-height: 0px;
+		margin-top:-25px;
+	}
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media only screen and (min-width: 1040px) {
 	
 }
@@ -1959,10 +2065,11 @@ a:hover:after{
 
 }
 
+
 @media only screen and (min-width: 992px) {
 
 }
 
 @media only screen and (min-width: 1200px) {
 
-}
+}*/
