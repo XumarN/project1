@@ -1564,7 +1564,6 @@ a:hover:after{
 }
 .cedvel14{
 	width: 25%;
-	
 	min-height: 180px;
 	float: left;
 	border-style: solid;
@@ -1573,6 +1572,11 @@ a:hover:after{
 	border-top-right-radius:10px ;
 	
 
+}
+.imgg{
+	margin-top:70px;
+	margin-left:70px;
+	width: 70%;
 }
 
 
@@ -2005,7 +2009,7 @@ a:hover:after{
 	.number{
 		width: 100%;
 	}
-.number1{
+	.number1{
 		width: 100%;
 	}
 	.soz{
@@ -2013,30 +2017,24 @@ a:hover:after{
 		min-height: 0px;
 		margin-top:-25px;
 	}
-
+	.imgg{
+		margin-left: 10px;
+		width: 80%;
+	}
+	.blog2{
+		width: 100%;
+		text-align: center;
+		margin-left: 0px;
+	}
+	.dec23{
+		margin-top: -405px;
+		margin-left: 520px ;
+	}
+	
 
 
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
