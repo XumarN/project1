@@ -2030,11 +2030,67 @@ a:hover:after{
 		margin-top: -405px;
 		margin-left: 520px ;
 	}
-	
+	.dizme_tm_subscribe left{
+		width: 100%;
+	}
+	.phone1{
+		width: 14%;
+	}
+	.email1{
+		width: 14%;
+	}
+	.address1{
+		width: 14%;
+	}
+	.your11{
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+	.your12{
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+	.your21{
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+	.your22{
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+	.form-group{
+		
+	}
+
+
+
 
 
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
