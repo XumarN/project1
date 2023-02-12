@@ -515,7 +515,7 @@ p {
 	text-align: center;
 	color: #B9B5C9;
 	font: 16px "Open Sans", sans-serif;
-}
+}/*
 .designer:after{
 	background-image: url(../images/about_top_img.png);
 	position: absolute;
@@ -535,7 +535,7 @@ p {
 	top: 300px;
 	right: 20px;
 	background-size: cover;
-}
+}*/
 
 
 
@@ -1445,7 +1445,7 @@ a:hover:after{
 .map{
 	width: 100%;
 	min-height: 375px;
-	margin-top: 250px;
+	margin-top: 100px;
 }
 
 .responsive-map{
@@ -1971,7 +1971,10 @@ a:hover:after{
 		margin-left: 0px;
 	}
 	.progress_inner{
-		width: 90%;
+		width: 80%;
+	}
+	.loader{
+		margin: 0px;
 	}
 	.part22_2{
 		background-size: 100%;
@@ -2065,6 +2068,53 @@ a:hover:after{
 	.form-group{
 		
 	}
+	.main71{
+		width: 100%;
+		display: block;
+		margin:0px 0px 0px 0px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+
+	}
+	.main72{
+		width: 50%;
+		display: block;
+		display: flex;
+		margin: 0px 0px 0px 0px;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding-left: 200px;
+		padding-right: 0px;
+		padding-bottom: 27px;
+
+	}
+	.main73{
+		width: 50%;
+		display: block;
+		margin: 0px 0px 0px 0px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding-right: 200px;
+		padding-bottom: 27px;
+	}
+	.write{
+		margin-top: 160px ;
+	}
+	.your12{
+		margin-left: 0px;
+	}
+	.your22{
+		margin-left: 0px;
+	}
+	.col-xs-12{
+		padding-left: 0px;
+	}
+
 
 
 
