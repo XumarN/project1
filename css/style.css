@@ -1883,6 +1883,63 @@ a:hover:after{
 
 /*///////////////////////////Responsivity////////////////////////////////////////////*/
 
+
+
+@media only screen and (max-width: 1039.99px) {
+	.yy{
+		width: 30%;
+
+	}
+	.icon11{
+		width: 22%;
+		min-height: 158px;
+
+	}
+	.icon12{
+		width: 22%;
+		min-height: 158px;
+	}
+	.icon13{
+		width: 22%;
+		min-height: 158px;
+	}
+	.circle1{
+		width: 72%;
+		margin-left: 12%;
+	}
+	.circle2{
+		width: 72%;
+		margin-left: 12%;
+	}
+	.circle3{
+		width: 72%;
+		margin-left: 12%;
+	}
+	.icon11{
+		margin-left: 34%;
+	}
+	.icon12{
+		margin-left: 34%;
+	}
+	.icon13{
+		margin-left: 34%;
+	}
+	.most{
+		margin-left: 10%;
+	}
+	.pixel{
+		margin-left: 4%;
+	}
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1039.99px) {
 	.part1{
 		margin-top: 500px;
@@ -1908,7 +1965,7 @@ a:hover:after{
 	.button1{
 		margin-left: 250px;
 	}
-	.yy{
+	/*.yy{
 		width: 30%;
 
 	}
@@ -1924,7 +1981,8 @@ a:hover:after{
 	.icon13{
 		width: 22%;
 		min-height: 158px;
-	}
+	}*/
+
 
 
 }
@@ -2119,8 +2177,6 @@ a:hover:after{
 }
 
 
-
-
 @media only screen and (max-width: 992px) {
 	.col-md-6 {
 		width: 100%;
@@ -2283,6 +2339,7 @@ a:hover:after{
 		margin-left: 40%;
 	}
 
+
 }
 
 
@@ -2296,12 +2353,23 @@ a:hover:after{
 }
 
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1999.99px) {
+		.circle1{
+		width: 123%;
+	}
+	.circle2{
+		width: 123%;
+	}
 
+	.circle3{
+		width: 123%;
+	}
+
+	
 }
 
 @media only screen and (max-width: 1999.99px) {
-	.icon11{
+	/*.icon11{
 		width: 30%;
 	}
 	.icon12{
@@ -2309,7 +2377,7 @@ a:hover:after{
 	}
 	.icon13{
 		width: 30%;
-	}
+	}*/
 	.imgg{
 		margin-left: 15px;
 	}
@@ -2329,5 +2397,29 @@ a:hover:after{
 		width: 47%;
 
 	}
+	.icon11{
+		width: 30%;
+	}
+	.icon12{
+		width: 30%;
+	}
+	.icon13{
+		width: 30%;
+	}
 
+	
+
+
+
+}
+@media only screen and (min-width: 1200px) {
+		.icon11{
+			width: 25%;
+		}
+		.icon12{
+			width: 25%;
+		}
+		.icon13{
+			width: 25%;
+		}
 }
