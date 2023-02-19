@@ -248,7 +248,7 @@ p {
 
 }
 .part2{
-	width: 100%;
+	width: 99%;
 	min-height: 370px;
 	float: left;
 	object-fit: cover;
@@ -1879,10 +1879,26 @@ a:hover:after{
 	min-height: 40px;
 }
 
-
+#preloader{
+    width: 100%;
+    height: 100vh;
+    background: white url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif') no-repeat center center;
+    background-size: 10%;
+    float: left;
+    position: fixed;
+    z-index: 100;
+}
 
 /*///////////////////////////Responsivity////////////////////////////////////////////*/
+@media only screen and (max-width: 1064px) {
+	.xx{
+		    margin-left: 168px;
+	}
+	.demo{
+		    margin-left: 62px;
+	}
 
+}
 
 
 @media only screen and (max-width: 1039.99px) {
@@ -1893,15 +1909,18 @@ a:hover:after{
 	.icon11{
 		width: 22%;
 		min-height: 158px;
+		margin-left: 34%;
 
 	}
 	.icon12{
 		width: 22%;
 		min-height: 158px;
+		margin-left: 34%;
 	}
 	.icon13{
 		width: 22%;
 		min-height: 158px;
+		margin-left: 34%;
 	}
 	.circle1{
 		width: 72%;
@@ -1915,32 +1934,15 @@ a:hover:after{
 		width: 72%;
 		margin-left: 12%;
 	}
-	.icon11{
-		margin-left: 34%;
-	}
-	.icon12{
-		margin-left: 34%;
-	}
-	.icon13{
-		margin-left: 34%;
-	}
 	.most{
 		margin-left: 10%;
 	}
 	.pixel{
-		margin-left: 4%;
+		margin-left: 5%;
 	}
-}
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1039.99px) {
+	.icon13{
+		margin-left: 40%;
+	}
 	.part1{
 		margin-top: 500px;
 		
@@ -1965,29 +1967,20 @@ a:hover:after{
 	.button1{
 		margin-left: 250px;
 	}
-	/*.yy{
-		width: 30%;
-
+	.xx{
+		margin-left: 485px;
 	}
-	.icon11{
-		width: 22%;
-		min-height: 158px;
-
-	}
-	.icon12{
-		width: 22%;
-		min-height: 158px;
-	}
-	.icon13{
-		width: 22%;
-		min-height: 158px;
-	}*/
-
-
 
 }
 
-@media only screen and (max-width: 768.99px) {
+
+
+
+
+
+
+
+@media only screen and (max-width: 767.99px) {
 	.image1{
 		display: none;
 	}
@@ -2172,7 +2165,13 @@ a:hover:after{
 	.col-xs-12{
 		padding-left: 0px;
 	}
-
+	/*.your11{
+		width:100%;
+	}
+	.your21{
+		width: 100%;
+	}
+*/
 	
 }
 
@@ -2182,7 +2181,7 @@ a:hover:after{
 		width: 100%;
 	}
 	.part2{
-		margin-left: 50px;
+		margin-left: 0px;
 	}
 	.part1{
 		width: 100%;
@@ -2338,13 +2337,17 @@ a:hover:after{
 	.icon12{
 		margin-left: 40%;
 	}
+	.sekil{
+		/*margin-left: 0px;*/
+	}
+	
 
 
 }
 
 
-@media only screen and (min-width: 732px) {
-
+@media only screen and (max-width: 992px) {
+	
 }
 
 
@@ -2421,5 +2424,17 @@ a:hover:after{
 		}
 		.icon13{
 			width: 25%;
+		}
+}
+
+@media only screen and (max-width: 767.99px) {
+		.your11{
+			width: 100%;
+		}
+		.your21{
+			width: 100%;
+		}
+		.sekil{
+
 		}
 }
