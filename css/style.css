@@ -1683,6 +1683,11 @@ a:hover:after{
 	float: left;
 	margin-bottom: 15px;
 }
+/*.decsekil:hover{
+	width: 105%;
+	min-height: 270px;
+	transition-duration: 0.5s;
+}*/
 .decsoz{
 	width: 100%;
 	min-height: 30px;
@@ -1890,6 +1895,21 @@ a:hover:after{
 }
 
 /*///////////////////////////Responsivity////////////////////////////////////////////*/
+@media only screen and (max-width: 1999.99px){
+.main71{
+		width: 31% ;
+	}
+	.main72{
+		margin-left: 265px;
+	}
+	.main73{
+
+	}
+
+}
+
+
+
 @media only screen and (max-width: 1064px) {
 	.xx{
 		    margin-left: 168px;
@@ -2175,7 +2195,16 @@ a:hover:after{
 	
 }
 
-
+/*
+@media only screen and (max-width: 1200px {
+	.main71{
+		width: 31% ;
+	}
+	.main72{
+		margin-left: 265px;
+	}
+}
+*/
 @media only screen and (max-width: 992px) {
 	.col-md-6 {
 		width: 100%;
@@ -2352,7 +2381,9 @@ a:hover:after{
 
 
 @media only screen and (min-width: 768px) {
-
+		.xx{
+			margin-left: 200px;
+		}
 }
 
 
@@ -2367,6 +2398,7 @@ a:hover:after{
 	.circle3{
 		width: 123%;
 	}
+
 
 	
 }
@@ -2410,6 +2442,8 @@ a:hover:after{
 		width: 30%;
 	}
 
+
+
 	
 
 
@@ -2425,6 +2459,7 @@ a:hover:after{
 		.icon13{
 			width: 25%;
 		}
+
 }
 
 @media only screen and (max-width: 767.99px) {
@@ -2437,4 +2472,19 @@ a:hover:after{
 		.sekil{
 
 		}
+		.dec1{
+
+			margin-left: 20px;
+		}
+		.dec2{
+			margin-left: 20px;
+		}
+
+		.dec3{
+			margin-left: 20px;
+		}
+
+
+
 }
+
