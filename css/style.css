@@ -515,7 +515,7 @@ p {
 	text-align: center;
 	color: #B9B5C9;
 	font: 16px "Open Sans", sans-serif;
-}/*
+}
 .designer:after{
 	background-image: url(../images/about_top_img.png);
 	position: absolute;
@@ -535,7 +535,7 @@ p {
 	top: 300px;
 	right: 20px;
 	background-size: cover;
-}*/
+}
 
 
 
@@ -782,7 +782,31 @@ li{
 	justify-content: center;
 	margin-left: 100px;
 	margin-bottom: -10px;
+	position: relative;
 	
+}
+.lilili{
+	width: 100%;
+	min-height: 50px;
+	color:#F75023;
+	font-weight: 500;
+	font: 22px 'Jost', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 100px;
+	margin-bottom: -10px;
+	position: relative;
+	
+}
+.lilili:after{
+	position: absolute;
+	content: "";
+	width: 40%;
+	min-height: 250px;
+	background-image: url(../images/service-top-img.png);
+	top: 0px;
+	left: 750px;
 }
 #lala{
 	margin-top: -50px;
@@ -1029,6 +1053,7 @@ input.search {
 	margin-bottom: 25px;
 	background: #4B4F5C;
 	border-radius: 12px;
+	position: relative;
 
 
 }
@@ -1050,6 +1075,20 @@ input.search {
 
 
 }
+/*.card1::after{
+	position: absolute;
+	content: "";
+	
+	top: -60%;
+	left: 40%;
+	width: 60%;
+	min-height: 250px;
+	background-image: url(../images/service-top-img.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+*/
 
 .card1:hover{
 	transform: rotateZ(2deg);
@@ -1233,7 +1272,7 @@ a:hover:after{
 	position: relative;
 
 }
-/*.address::after{
+.address::after{
 	position: absolute;
 	content: " ";
 	bottom: 150px;
@@ -1243,7 +1282,7 @@ a:hover:after{
 	background-image: url(../images/contact_left.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-}*/
+}
 .email{
 	width: 100%;
 	min-height: 88px;
@@ -1995,6 +2034,11 @@ a:hover:after{
 
 
 
+@media only screen and (max-width: 767.99px) {
+	.xx{
+		margin-left: 0px;
+	}
+}
 
 
 
@@ -2377,6 +2421,16 @@ a:hover:after{
 
 @media only screen and (max-width: 992px) {
 	
+	.designer:before{
+		display: none;
+	}
+	.designer:after{
+		display: none;
+	}
+	.lilili:after{
+		display: none;
+	}
+	
 }
 
 
@@ -2441,6 +2495,7 @@ a:hover:after{
 	.icon13{
 		width: 30%;
 	}
+	
 
 
 
@@ -2459,6 +2514,7 @@ a:hover:after{
 		.icon13{
 			width: 25%;
 		}
+		
 
 }
 
