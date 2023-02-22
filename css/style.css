@@ -808,6 +808,19 @@ li{
 	top: 0px;
 	left: 750px;
 }
+.lilili:before{
+	position: absolute;
+	content: " ";
+	width: 30%;
+	min-height: 300px;
+	background-image: url(../images/service_top_left.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: -50px;
+	left: -240px;
+	z-index: 9999;
+
+}
 #lala{
 	margin-top: -50px;
 	justify-items: space-between;
@@ -1947,6 +1960,22 @@ a:hover:after{
 
 }
 
+@media only screen and (max-width: 1999.99px){
+	.image{
+		width: 43%;
+	}
+	.image2{
+		width: 43%;
+	}
+	.image3{
+		width: 43%;
+	}
+	.image4{
+		width: 43%;
+	}
+
+}
+
 
 
 @media only screen and (max-width: 1064px) {
@@ -2045,22 +2074,7 @@ a:hover:after{
 
 
 @media only screen and (max-width: 767.99px) {
-	.image1{
-		display: none;
-	}
-	.image2{
-		display: none;
-	}
 
-	.image3{
-		display: none;
-	}
-	.image4{
-		display: none;
-	}
-	.image{
-		display:none;
-	}
 	.start{
 		margin-right: 100px;
 	}
@@ -2229,26 +2243,9 @@ a:hover:after{
 	.col-xs-12{
 		padding-left: 0px;
 	}
-	/*.your11{
-		width:100%;
-	}
-	.your21{
-		width: 100%;
-	}
-*/
-	
+
 }
 
-/*
-@media only screen and (max-width: 1200px {
-	.main71{
-		width: 31% ;
-	}
-	.main72{
-		margin-left: 265px;
-	}
-}
-*/
 @media only screen and (max-width: 992px) {
 	.col-md-6 {
 		width: 100%;
@@ -2419,7 +2416,7 @@ a:hover:after{
 }
 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1400px) {
 	
 	.designer:before{
 		display: none;
@@ -2430,6 +2427,11 @@ a:hover:after{
 	.lilili:after{
 		display: none;
 	}
+	.lilili:before{
+		display: none;
+	}
+	
+
 	
 }
 
@@ -2458,15 +2460,7 @@ a:hover:after{
 }
 
 @media only screen and (max-width: 1999.99px) {
-	/*.icon11{
-		width: 30%;
-	}
-	.icon12{
-		width: 30%;
-	}
-	.icon13{
-		width: 30%;
-	}*/
+	
 	.imgg{
 		margin-left: 15px;
 	}
@@ -2495,6 +2489,7 @@ a:hover:after{
 	.icon13{
 		width: 30%;
 	}
+	
 	
 
 
